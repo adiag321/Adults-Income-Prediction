@@ -7,13 +7,24 @@ This dataset has 48842 rows × 15 columns
 
 # Methods
 Step 1: Data collection
+
 Step 2: Data Cleaning
+
 Step 3: Data Analysis
+
 Step 4: Data Preprocessing(Preparation)
+
 Step 5: Model Training
+
 Step 6: Performance Evaluation
 
 # Model Evaluation
+We have implemented the following models:
+1. SVM
+2. Logistic Regression
+3. Naive Bayes
+4. Desicion Tree
+5. Random Forest
 
 # Performance Evaluation
 We have calculated the precision, recall , True positive/negative and built a confusion matrix for the same.
