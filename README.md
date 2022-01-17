@@ -1,6 +1,7 @@
 # <p align = "center"> Adult's Income Prediction </p>
 
-This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
+This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). <br>
+The prediction task is to determine whether a person makes over $50K a year.
 
 # Data Defination
 The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> Link </a> <br>
@@ -24,7 +25,7 @@ This dataset has 48842 rows × 15 columns. <br>
 # Methods
 In this project, we have employed the following steps:
 
-1. Data collection
+1. Data Collection
 2. Data Cleaning
 3. Data Analysis
 4. Data Preprocessing(Preparation)
@@ -38,6 +39,11 @@ We have implemented the following models: <br>
 3. Naive Bayes
 4. Desicion Tree
 5. Random Forest
+
+# Results
+1. Gender Distribution based on Income
+<img src = "Images/gender.png">
+
 
 # Performance Evaluation
 We have calculated the `Precision`, `Recall` , `True positive/negative` and built a `Confusion Matrix` for the same.
