@@ -1,7 +1,9 @@
 # <p align = "center"> Adult's Income Prediction </p>
 
+This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
+
 # Data Defination
-The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> Link </a> 
+The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> Link </a> <br>
 This dataset has 48842 rows × 15 columns. <br>
 
 1. age: continuous.
@@ -20,6 +22,8 @@ This dataset has 48842 rows × 15 columns. <br>
 14. native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
 # Methods
+In this project, we have employed the following steps:
+
 1. Data collection
 2. Data Cleaning
 3. Data Analysis
@@ -27,8 +31,8 @@ This dataset has 48842 rows × 15 columns. <br>
 5. Model Training
 6. Performance Evaluation
 
-# Model Evaluation
-We have implemented the following models:
+We have implemented the following models: <br>
+
 1. SVM
 2. Logistic Regression
 3. Naive Bayes
