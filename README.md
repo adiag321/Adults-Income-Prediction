@@ -40,6 +40,9 @@ We have implemented the following models: <br>
 4. Desicion Tree
 5. Random Forest
 
+# Performance Evaluation
+We have calculated the `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
+
 # Results
 1. Gender Distribution based on Income
 <img src = "Images/gender.png">
@@ -52,9 +55,6 @@ We have implemented the following models: <br>
 
 4. Age Vs Marital Status
 <img src = "Images/Age Vs Marital Status.png">
-
-# Performance Evaluation
-We have calculated the `Precision`, `Recall` , `True positive/negative` and built a `Confusion Matrix` for the same.
 
 # Conclusion:
 * Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
