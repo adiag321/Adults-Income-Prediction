@@ -44,6 +44,14 @@ We have implemented the following models: <br>
 1. Gender Distribution based on Income
 <img src = "Images/gender.png">
 
+2. Education Count 
+<img src = "Images/Education Count.png">
+
+3. Work-Class Distribution
+<img src ="Images/Workclass.png">
+
+4. Age Vs Marital Status
+<img src = "Images/Age Vs Marital Status.png">
 
 # Performance Evaluation
 We have calculated the `Precision`, `Recall` , `True positive/negative` and built a `Confusion Matrix` for the same.
